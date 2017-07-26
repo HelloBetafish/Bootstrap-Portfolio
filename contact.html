@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+	<title>Contact Page</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!--favicon from https://www.freefavicon.com/-->
+	<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+	<!-- We link our html to the Bootstrap CDN -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+
+<body>
+
+	<!-- Header and Navbar at top of page-->
+	
+	<nav class="navbar navbar-default navbar-fixed-top">
+		<div class="container-fluid">
+    		<div class="navbar-header">
+      			<a id="bLogo" class="navbar-brand" href="index.html">Bethany Pfeister</a>
+    		</div>
+      		<ul class="nav navbar-nav navbar-right">
+        		<li class="rightborder"><a href="index.html">About</a></li>
+        		<li class="rightborder"><a href="portfolio.html">Portfolio</a></li>
+        		<li class="active"><a href="contact.html">Contact</a></li>
+      		</ul>
+    	</div>
+  	</nav>
+
+	<!-- Main Row -->
+	<div class="container">
+		<div class="row">
+			<!--First Column Contact Form -->
+			<div class="col-md-8 padding white grayborder">
+          			<h1 class="page-header">   Contact</h1>
+						<form action="mailto:bethanypfeister@gmail.com" method="post" enctype="text/plain">
+						<div class="form-group">
+							<label for="name">Name</label>
+							<div class="input-group">
+								<span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+								<input type="name" class="form-control" id="name" placeholder="John Smith" name="name">
+							</div>
+						</div>
+
+						<div class="form-group">
+							<label for="email">Email</label>
+							<div class="input-group">
+								<span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
+								<input type="email" class="form-control" id="email" placeholder="example@gmail.com" name="email">
+							</div>
+						</div>
+
+						<div class="form-group">
+							<label for="comment">Message</label>
+							<textarea class="form-control" rows="5" id="comment">
+							</textarea>
+						</div>
+
+						<button type="submit" class="btn">Submit</button>
+						</form>
+			</div>
+
+			<!-- 2nd Column Contact Links -->
+			<div class="col-md-4 grayborder">
+				<div class="panel panel-default">
+          			<h3 class="page-header text-center">Connect with Me</h3>
+          			<div class="panel-body">
+          				<div class="row">
+          					<div class="col-md-4">
+          						<a href="https://github.com/HelloBetafish" target="_blank"><img src="images/if_github2_252065.png" alt="GitHub" class="img-responsive img-rounded imgHover"></a>
+          					</div>
+          					<div class="col-md-4">
+          						<a href="https://www.linkedin.com/in/bethany-pfeister-2b8973a5/" target="_blank"><img src="images/if_linkedin_386655.png" alt="LinkedIn" class="img-responsive img-rounded imgHover"></a>
+          					</div>
+          					<div class="col-md-4">
+          						<a href="https://stackoverflow.com/users/8095739/betafish?tab=profile" target="_blank"><img src="images/if_overflow_386674.png" alt="Stack Overflow" class="img-responsive img-rounded imgHover"></a>
+          					</div>
+          				</div>
+         			</div>
+        		</div>
+			</div>
+		<!-- Close container -->
+	</div>
+		
+
+	<!-- Sticky footer -->
+	<div id="footer" class="navbar navbar-default navbar-fixed-bottom">
+		<div class="container">
+			<p class="text-center"><small>&copy; 2017 Bethany Pfeister</small></p>
+		</div>
+	</div>
+
+  <!-- jQuery, javascript file for the Bootstrap's javascript file to function -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+  <!-- Bootstrap's javascript file that allows the dropdown menu to work  -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+</body>
+</html>
